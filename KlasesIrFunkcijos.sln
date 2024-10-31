@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlasesIrFunkcijos", "KlasesIrFunkcijos\KlasesIrFunkcijos.csproj", "{BE5A4C52-57E0-4C49-8211-CD80FD8AEEF1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automobilis", "Automobilis\Automobilis.csproj", "{45D9AAE2-30C6-42B4-980E-61A40B24860E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KlasesIrFunkcijos", "KlasesIrFunkcijos\KlasesIrFunkcijos.csproj", "{BE5A4C52-57E0-4C49-8211-CD80FD8AEEF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{BE5A4C52-57E0-4C49-8211-CD80FD8AEEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE5A4C52-57E0-4C49-8211-CD80FD8AEEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE5A4C52-57E0-4C49-8211-CD80FD8AEEF1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{45D9AAE2-30C6-42B4-980E-61A40B24860E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{45D9AAE2-30C6-42B4-980E-61A40B24860E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45D9AAE2-30C6-42B4-980E-61A40B24860E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{45D9AAE2-30C6-42B4-980E-61A40B24860E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -25,6 +25,32 @@ namespace KlasesIrFunkcijos
 
             Console.WriteLine("Iveskite skaiciu, kurio daliklius norite rasti: ");
             Console.WriteLine(Dalikliai(int.Parse(Console.ReadLine())));
+
+            Automobilis automobilis1 = new Automobilis("Toyota", "Yaris", 2001, 5);
+            automobilis1.PildytiKura(40);
+            automobilis1.Vaziuoti(200);
+
+            Studentas studentas1 = new Studentas("Jonas", "Jonaitis", 15, 5);
+            studentas1.PridetiPazymi(6);
+            studentas1.ArPerejoISekanciaKlase();
+
+            Apskritimas apskritimas1 = new Apskritimas(30, 5);
+            apskritimas1.SkaiciuotiPerimetra();
+            apskritimas1.SkaiciuotiPlota();
+
+            Knyga knyga1 = new Knyga("Kliudziau", "J. Biliunas", 140, false);
+            knyga1.perskaitytiKnyga();
+            knyga1.gautiAprasyma();
+
+            BankoSaskaita saskaita1 = new BankoSaskaita("Juozas", "LT12312312", 33.15d);
+            saskaita1.IdetiPinigus(22.15);
+            saskaita1.NusiimtiPinigus(15.00);
+            saskaita1.GautiInformacija();
+
+            BankoSaskaita saskaita2 = new BankoSaskaita("Jurgis", "Lt11311123");
+            saskaita2.IdetiPinigus(2000.19);
+            saskaita1.NusiimtiPinigus(15.00);
+            saskaita1.GautiInformacija();
         }
 
         // 1. Patikrinti pilnametystę: Sukurkite funkciją, kuri priima žmogaus amžių ir grąžina tekstą „Pilnametis“, jei amžius yra 18 ar daugiau, o kitu atveju - „Nepilnametis“.
